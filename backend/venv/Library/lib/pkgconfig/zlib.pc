@@ -1,0 +1,13 @@
+prefix=F:/agent/LiveKit-AI/backend/venv/Library
+exec_prefix=F:/agent/LiveKit-AI/backend/venv/Library
+libdir=F:/agent/LiveKit-AI/backend/venv/Library/lib
+sharedlibdir=F:/agent/LiveKit-AI/backend/venv/Library/lib
+includedir=F:/agent/LiveKit-AI/backend/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
